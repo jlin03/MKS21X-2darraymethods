@@ -10,7 +10,11 @@ public class Driver {
     //12
     System.out.println(ArrayMethods.columnSum(a,0));
     //10
-
+	System.out.println(ArrayMethods.isRowMagic(a));
+	//false
+	System.out.println(ArrayMethods.isColumnMagic(a));
+	//true
+	
   }
 
 }
